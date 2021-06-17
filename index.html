@@ -60,8 +60,18 @@ h2
 	text-align: right;
 	padding: 10px;
 }
+@media only screen and (max-device-width: 480px) {
+	.main { width: 100%; }
+	.summary { width: calc(100% - 30px); box-sizing: border-box; }
+}
 </style>
+<head>
 <title>Newt Group</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+</head>
 <div class="header">
 	<div>
 		Newt Group
