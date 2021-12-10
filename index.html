@@ -1,82 +1,11 @@
-<style>
-body
-{
-	margin: 0 auto;
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: #f6f6f6;
-	font-weight: 200;
-}
-.header
-{
-	background-color: #4c9cca;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding: 10px;
-	margin-bottom: 10px;
-}
-.main
-{
-	text-align: center;
-	width: 650px;
-	margin: 0 auto;
-}
-.summary
-{
-	font-size: 23px;
-	margin: 15px;
-	border: 3px dashed #999;
-	border-radius: 5px;
-	width: 250px;
-	float: left;
-	padding: 15px;
-	text-align: center;
-	color: #667;
-	text-decoration: none;
-}
-.summary:hover
-{
-	color: black;
-	border-color: black;
-	background-color: white;
-}
-.summary img
-{
-	height: 75px;
-	padding: 15px;
-}
-h2
-{
-	text-align: left;
-	font-weight: 200;
-	margin-bottom: 5px;
-}
-.footer
-{
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
-	text-align: right;
-	padding: 10px;
-}
-@media only screen and (max-device-width: 480px) {
-	.main { width: 100%; }
-	.summary { width: calc(100% - 30px); box-sizing: border-box; }
-}
-.more
-{
-	margin: 10px;
-	margin-top: 20px;
-}
-
-</style>
 <head>
 <title>Newt Group</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+	<meta name="theme-color" content="#4c9cca">
+	<link rel="stylesheet" href="style.css" />
 </head>
 <div class="header">
 	<div>
@@ -84,19 +13,60 @@ h2
 	</div>
 </div>
 <div class="main">
-<!--	<h2>About Us</h2>
-<h2>Studios</h2> -->
-<div class="more">
-Click on a team to learn more:
-</div>
-	<a href="https://durianapps.com" class="summary">
-		<img src="durian.png" />
-		<div>Durian! Apps</div>
-	</a>
+	<h2>About Us</h2>
+	<div class="more">
+		<p>
+			Newt Group is a software development company that specializes in creating mobile apps and video game design/publishing.
+		</p>
+		<p>
+			This page serves as an index of the various teams and projects that we are involved in. Click on the links below for more information.
+		</p>
+	</div>
+	<h2>Studios</h2>
 	<a href="https://newt.games" class="summary">
 		<img src="newt.png" />
 		<div>Newt Games</div>
+		<div>newt.games</div>
 	</a>
+	<a href="https://durianapps.com" class="summary">
+		<img src="durian.png" />
+		<div>Durian! Apps</div>
+		<div>durianapps.com</div>
+	</a>
+	<h2>Apps</h2>
+	<div class="appcontainer">
+		<a class="app" href="https://newt.games/" target="_blank">
+			<img src="images/papercut.png" />
+			<div>Papercut</div>
+			<!-- <div>Coming Soon</div> -->
+		</a>
+		<!-- <div class="app">
+			<img src="images/placeholder.png" />
+			<div>Another Space Game</div>
+		</div>
+		<div class="app">
+			<img src="images/placeholder.png" />
+			<div>Star Ride</div>
+		</div> -->
+		<a href="https://durianapps.com/apps/whoops/" class="app" target="_blank">
+			<img src="images/whoops.png" />
+			<div>Whoops!!</div>
+			<!-- <div>iOS/Android</div> -->
+		</a>
+		<a class="app" href="https://durianapps.com/apps/airludo/" target="_blank">
+			<img src="images/airludo.png" />
+			<div>Air Ludo</div>
+			<!-- <div>iOS/Android</div> -->
+		</a>
+		<!-- <a class="app" href="https://durianapps.com/apps/thinkbig/" target="_blank">
+			<img src="images/thinkbig.png" />
+			<div>Think Big</div>
+		</a> -->
+		<!-- <h2>Projects</h2>
+		<p>
+			We have signed a few open-source macOS app bundles to make running them easier.
+		</p> -->
+	</div>
 </div>
 <div class="footer">
 	Copyright 2021 Newt Group LLC
