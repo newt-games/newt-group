@@ -1,0 +1,60 @@
+{
+    "studios": [{
+        "name": "Newt Games",
+        "url": "newt.games",
+        "icon": "newt.png"
+    }, {
+        "name": "boukendev",
+        "url": "bouken.dev",
+        "icon": "bouken.png"
+    }, {
+        "name": "Durian! Apps",
+        "url": "durianapps.com",
+        "icon": "durian.png"
+    }],
+    "featured": ["habit-bee", "papercut", "whoops", "darken", "artfelt", "thinkbig"],
+    "privacylist": ["habit-bee", "darken", "papercut", "lanmenubar"],
+    "apps": [{
+        "name": "Habit Bee",
+        "id": "habit-bee",
+        "url": "https://habitbee.app",
+        "details": "Daily Planner & Tracker"
+    }, {
+        "name": "Whoops!!",
+        "id": "whoops",
+        "url": "https://durianapps.com/apps/whoops/"
+    }, {
+        "name": "Artfelt",
+        "id": "artfelt",
+        "url": "https://artfelt.ai"
+    }, {
+        "name": "Think Big",
+        "id": "thinkbig",
+        "url": "https://durianapps.com/apps/thinkbig/"
+    }, {
+        "name": "Darken",
+        "id": "darken",
+        "iosDownload": "https://apps.apple.com/us/app/darken-screen-dimmer/id6443616964?mt=12",
+        "showiOS": "show",
+        "details": "macOS Screen Dimming",
+        "long_desc": [
+            "Cover the screen with a dark transparent overlay",
+            "Cover the screen with a dark transparent overlay, similar to the \"Low Light\" accessibility filter on iOS.",
+            "After running the app, click the crescent moon in the status bar to get a slider to adjust the darkness level. The slider ranges from 15% to 80%. To remove the effect, quit the app via the menu.",
+            "It is recommended to completely turn down the brightness first, and then use this app to create the effect of further dimming of the screen."
+        ]
+    }, {
+        "name": "Papercut",
+        "id": "papercut",
+        "url": "https://newt.games",
+        "details": "(Demo) Upcoming 2.5D RPG"
+    }, {
+        "name": "LanMenuBar",
+        "id": "lanmenubar",
+        "details": "List Local Network Devices"
+    }, {
+        "name": "Air Ludo",
+        "id": "air-ludo",
+        "url": "https://durianapps.com/apps/airludo/"
+    }]
+}
