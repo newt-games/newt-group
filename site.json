@@ -12,7 +12,7 @@
         "url": "durianapps.com",
         "icon": "durian.png"
     }],
-    "featured": ["habit-bee", "papercut", "whoops", "darken", "artfelt", "thinkbig"],
+    "featured": ["habit-bee", "papercut", "whoops", "darken", "artfelt", "lanmenubar"],
     "privacylist": ["habit-bee", "darken", "papercut", "lanmenubar"],
     "apps": [{
         "name": "Habit Bee",
@@ -38,7 +38,6 @@
         "showiOS": "show",
         "details": "macOS Screen Dimming",
         "long_desc": [
-            "Cover the screen with a dark transparent overlay",
             "Cover the screen with a dark transparent overlay, similar to the \"Low Light\" accessibility filter on iOS.",
             "After running the app, click the crescent moon in the status bar to get a slider to adjust the darkness level. The slider ranges from 15% to 80%. To remove the effect, quit the app via the menu.",
             "It is recommended to completely turn down the brightness first, and then use this app to create the effect of further dimming of the screen."
@@ -51,7 +50,13 @@
     }, {
         "name": "LanMenuBar",
         "id": "lanmenubar",
-        "details": "List Local Network Devices"
+        "details": "List Local Network Devices",
+        "long_desc": [
+            "Displays all devices on your Local Area Network (LAN) in your menu bar!",
+            "Using info from the Address Resolution Protocol (ARP) table, and displays IP addresses and hardware data. You can quickly copy IP, MAC addresses, and identify, label, and name devices that you recognize.",
+            "Useful for scenarios where you don't want to physically check the IP address the device, or would have to log into your router to get MAC addresses. Enables quick ssh-ing and remote desktop, even in scenarios where the target device gets a new IP.",
+            "Refreshes with latest network info every 5 minutes."
+        ]
     }, {
         "name": "Air Ludo",
         "id": "air-ludo",

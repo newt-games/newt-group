@@ -97,9 +97,10 @@ for app in siteInfo["apps"]:
     if "long_desc" in app:
         app["long_desc"] = [f"<p>{a}</p>" for a in app["long_desc"]]
     else:
-        app["long_desc"] = "Work in progress, more information coming soon."
+        app["long_desc"] = "<p>Work in progress, more information coming soon.</p>"
     if "details" not in app:
         app["details"] = "<a href=" + app["url"] + " target='_blank'>Visit Site</a>"
+        app["long_desc"] = "<p>Info on this app is available on the app's external website, which can be found through the link above.</p>"
     appPage = replaceVars(root_frame, {
         "title": app["name"],
         "pageContent": replaceVars(loadPiece("appdetails"), app),
