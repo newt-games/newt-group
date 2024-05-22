@@ -22,7 +22,11 @@
     }, {
         "name": "Whoops!!",
         "id": "whoops",
-        "url": "https://durianapps.com/apps/whoops/"
+        "url": "https://durianapps.com/apps/whoops/",
+        "showiOS": "show",
+        "iosDownload": "https://itunes.apple.com/us/app/whoops/id1289150061",
+        "showAndroid": "show",
+        "androidDownload": "https://play.google.com/store/apps/details?id=com.durian.whoops"
     }, {
         "name": "Artfelt",
         "id": "artfelt",
@@ -30,7 +34,11 @@
     }, {
         "name": "Think Big",
         "id": "thinkbig",
-        "url": "https://durianapps.com/apps/thinkbig/"
+        "url": "https://durianapps.com/apps/thinkbig/",
+        "showiOS": "show",
+        "iosDownload": "https://itunes.apple.com/us/app/thinkbig/id1452073393",
+        "showAndroid": "show",
+        "androidDownload": "https://play.google.com/store/apps/details?id=com.durianapps.landgrab"
     }, {
         "name": "Darken",
         "id": "darken",
@@ -56,10 +64,16 @@
             "Using info from the Address Resolution Protocol (ARP) table, and displays IP addresses and hardware data. You can quickly copy IP, MAC addresses, and identify, label, and name devices that you recognize.",
             "Useful for scenarios where you don't want to physically check the IP address the device, or would have to log into your router to get MAC addresses. Enables quick ssh-ing and remote desktop, even in scenarios where the target device gets a new IP.",
             "Refreshes with latest network info every 5 minutes."
-        ]
+        ],
+        "showiOS": "show",
+        "iosDownload": "https://apps.apple.com/us/app/lanmenubar/id6499077774?mt=12"
     }, {
         "name": "Air Ludo",
         "id": "air-ludo",
-        "url": "https://durianapps.com/apps/airludo/"
+        "url": "https://durianapps.com/apps/airludo/",
+        "showiOS": "show",
+        "iosDownload": "https://itunes.apple.com/us/app/airludo/id1476354529",
+        "showAndroid": "show",
+        "androidDownload": "https://play.google.com/store/apps/details?id=com.durian.ludo"
     }]
 }
