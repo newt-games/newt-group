@@ -13,7 +13,7 @@
         "icon": "durian.png"
     }],
     "featured": ["habit-bee", "papercut", "whoops", "darken", "artfelt", "lanmenubar"],
-    "privacylist": ["habit-bee", "darken", "papercut", "lanmenubar"],
+    "privacylist": ["habit-bee", "darken", "papercut", "lanmenubar", "chat-receipts"],
     "apps": [{
         "name": "Habit Bee",
         "id": "habit-bee",
@@ -75,5 +75,17 @@
         "iosDownload": "https://itunes.apple.com/us/app/airludo/id1476354529",
         "showAndroid": "show",
         "androidDownload": "https://play.google.com/store/apps/details?id=com.durian.ludo"
+    }, {
+        "name": "ChatReceipts",
+        "id": "chat-receipts",
+        "details": "Display and Search old iMessages",
+        "long_desc": [
+            "Displays all messages from the macOS Messages app in an easy to browse paginated interface.",
+            "Only accesses the local Chats database as read-only, does not require network or write permissions.",
+            "Provide context parameters for each search, to make it easier to follow conversations that contain a given keyword.",
+            "List all chats by message count, and cross references sender information with your local Contacts data."
+        ],
+        "showiOS": "show",
+        "iosDownload": "https://itunes.apple.com/us/app/chatreceipts/id"
     }]
 }
